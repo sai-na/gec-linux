@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Navbar from "./components/Navbar"
+import Title from "./components/Title"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="App sm:mx-5">
+      <Navbar />
+
+      <Title />
+
+
+      <div className="flex justify-center">
+        <hr class=" w-11/12 my-10  h-px bg-firebaseYellow  border-0 " /></div>
+      <br />
+
     </div>
-  );
+
+  )
 }
 
-export default App;
+export default App
