@@ -27,7 +27,7 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-openSans {
+opensans {
   font-family: "Open Sans";
   color: #fff;
 }

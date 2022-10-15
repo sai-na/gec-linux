@@ -8,7 +8,8 @@ module.exports = {
 
       colors: {
         firebase: '#1F2023',
-        firebaseYellow: '#ffd557'
+        firebaseYellow: '#ffd557',
+        code: '#0D1117'
       },
 
 

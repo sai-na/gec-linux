@@ -1,22 +1,44 @@
 
 import Navbar from "./components/Navbar"
 import Title from "./components/Title"
+import GetCode from "./components/GetCode"
+import Hr from "./components/Hr"
+import CodeBox from "./components/CodeBox"
+import WorkshopSections from "./components/WorkshopSections"
+import WS from "./pages/WS"
+
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
 
 function App() {
   return (
+    <div className="App text-white sm:mx-5 ">
+      <Router>
 
-    <div className="App sm:mx-5">
-      <Navbar />
+        <Navbar />
+        <Routes>
 
-      <Title />
+          <Route exact path="/" element={
 
 
-      <div className="flex justify-center">
-        <hr class=" w-11/12 my-10  h-px bg-firebaseYellow  border-0 " /></div>
-      <br />
+            <div className="mx-32 ">
 
+              <Title />
+              <Hr />
+              <CodeBox />
+              <GetCode />
+              <Hr />
+              <WorkshopSections /><br />
+            </div>
+
+
+
+          } />
+
+          <Route exact path="/WS" element={<WS />} />
+
+        </Routes>
+      </Router >
     </div>
-
   )
 }
 
