@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Title from "./components/Title"
 import GetCode from "./components/GetCode"
@@ -6,8 +6,11 @@ import Hr from "./components/Hr"
 import CodeBox from "./components/CodeBox"
 import WorkshopSections from "./components/WorkshopSections"
 import WS from "./pages/WS"
+import Introdution from "./pages/WSsub/Introduction"
 
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
+
+
+
 
 function App() {
   return (
@@ -34,6 +37,11 @@ function App() {
 
           } />
 
+          <Route exact path="/WS" element={<WS />} />
+          <Route exact path="/WS/Introduction" element={< Introdution />} />
+          <Route exact path="/WS" element={<WS />} />
+          <Route exact path="/WS" element={<WS />} />
+          <Route exact path="/WS" element={<WS />} />
           <Route exact path="/WS" element={<WS />} />
 
         </Routes>
