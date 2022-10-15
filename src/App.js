@@ -6,7 +6,7 @@ import Hr from "./components/Hr"
 import CodeBox from "./components/CodeBox"
 import WorkshopSections from "./components/WorkshopSections"
 import WS from "./pages/WS"
-import Introdution from "./pages/WSsub/Introduction"
+import Introduction from "./pages/WSsub/Introduction"
 
 
 
@@ -38,7 +38,7 @@ function App() {
           } />
 
           <Route exact path="/WS" element={<WS />} />
-          <Route exact path="/WS/Introduction" element={< Introdution />} />
+          <Route exact path="/WS/Introduction" element={< Introduction />} />
           <Route exact path="/WS" element={<WS />} />
           <Route exact path="/WS" element={<WS />} />
           <Route exact path="/WS" element={<WS />} />
