@@ -87,7 +87,7 @@ function Introduction() {
                     <BlueText>Example</BlueText> <br />
                     ls --help
                 </CodeBox>
-                <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p>
+                {/* <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p> */}
             </section >
 
 
@@ -103,7 +103,7 @@ function Introduction() {
 
                     whoami
                 </CodeBox>
-                <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p>
+                {/* <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p> */}
             </section>
 
 

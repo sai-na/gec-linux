@@ -30,7 +30,7 @@ function Tree() {
                 <p className='text-lg ml-2'>
                 </p>
                 <CodeBox>
-                    apt-get update <CommandText> update ubuntu </CommandText>  <br />
+                    sudo apt-get update <CommandText> update ubuntu </CommandText>  <br />
                     sudo apt-get install tree <CommandText> Install tree</CommandText>
                 </CodeBox>
 
@@ -43,7 +43,7 @@ function Tree() {
                 <p className='text-lg ml-2'>
                 </p>
                 <CodeBox>
-                    tree -a ./GFG  <CommandText>  Display the tree hierarchy of a directory   </CommandText>
+                    tree   <CommandText>  Display the tree hierarchy of a directory   </CommandText>
 
                 </CodeBox>
 

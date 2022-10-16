@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 function WS({ title, subtitle, prev, next }) {
     return (
         <>
-            <div className=' mt-32 mb-5   '>
-                <opensans className='text-8xl'>  {title}    </opensans>
+            <div className='mt-5 md:mt-32 mb-5   '>
+                <opensans className=' text-3xl md:text-8xl'>  {title}    </opensans>
 
 
 
-                <div className=" ml-5 mt-12 font-sans text-2xl" style={{ color: "#cfcfcf" }}>  {subtitle}</div>
+                <div className=" ml-2 md:ml-5 mt-5 md:mt-12 font-sans text-base md:text-2xl" style={{ color: "#cfcfcf" }}>  {subtitle}</div>
 
             </div>
 

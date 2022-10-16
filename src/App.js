@@ -21,14 +21,14 @@ function App() {
 
     <Router>
       <>
-        <div className="App text-white sm:mx-5  ">
+        <div className="App text-white sm:mx-5 mx-1 ">
           <Navbar />
           <Routes>
 
             <Route exact path="/" element={
 
 
-              <div className="mx-32">
+              <div className="sm:mx-32">
 
                 <Title />
                 <Hr />
@@ -44,11 +44,11 @@ function App() {
             } />
 
             <Route exact path="/WS" element={<WS />} />
-            <Route exact path="/WS/Introduction" element={<div className="mx-32">< Introduction /></div>} />
-            <Route exact path="/WS/Tree" element={<div className="mx-32"><Tree /></div>} />
-            <Route exact path="/WS/File" element={<div className="mx-32"><File /></div>} />
-            <Route exact path="/WS/Directory" element={<div className="mx-32"><Directory /></div>} />
-            <Route exact path="/WS/Cat" element={<div className="mx-32"><Cat /></div>} />
+            <Route exact path="/WS/Introduction" element={<div className="md:mx-32 mx-3">< Introduction /></div>} />
+            <Route exact path="/WS/Tree" element={<div className="md:mx-32 mx-3"><Tree /></div>} />
+            <Route exact path="/WS/File" element={<div className="md:mx-32 mx-3"><File /></div>} />
+            <Route exact path="/WS/Directory" element={<div className="md:mx-32 mx-3"><Directory /></div>} />
+            <Route exact path="/WS/Cat" element={<div className="md:mx-32 mx-3"><Cat /></div>} />
 
 
           </Routes>

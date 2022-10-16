@@ -5,8 +5,8 @@ import { TbBrandInstagram } from 'react-icons/tb'
 function Title() {
     return (
         <>
-            <div className=' mt-32 mb-5 '>
-                <opensans className='text-8xl'><div className="flex ">Linux <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="" className='w-20 h-20 ml-10' /> <br /></div>  <span className='text-firebaseYellow'> Commands </span>   </opensans>
+            <div className=' mt-8 md:mt-32 mb-5 '>
+                <opensans className='text-3xl  sm:text-8xl'><div className="flex ">Linux <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="" className='md:w-20 w-12 h-12 ml-4 md:h-20 md:ml-10' /> <br /></div>  <span className='text-firebaseYellow'> Commands </span>   </opensans>
 
                 <div className="flex  items-center mt-6 ">
 
@@ -20,7 +20,7 @@ function Title() {
                 </div>
 
                 <div className=" font-mono  text-base mt-10 ml-10   font-semibold">MISSION</div>
-                <div className=" mt-3 font-sans text-4xl"> {'>'} Familiarize with <span className='text-firebaseYellow'> Linux commands </span> </div>
+                <div className=" mt-3 font-sans md:text-4xl"> {'>'} Familiarize with <span className='text-firebaseYellow'> Linux commands </span> </div>
 
             </div>
 
