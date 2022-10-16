@@ -10,7 +10,7 @@ import CommandText from '../../components/CommandText'
 function Introduction() {
 
     const title = <p> 1| <span className='text-firebaseYellow'>Intro</span>duction</p>
-    const subtitle = <p> Opening a terminal, Text size ,Key Commands & Navigation, Ls, Whoami, Date.</p>
+    const subtitle = <p> Open terminal, Text size, Key Commands & Navigation 🧭, Help ℹ , Whoami,Date 📅.</p>
 
     const next = 'Directory'
 
@@ -58,7 +58,7 @@ function Introduction() {
 
 
             <section className="mt-6" id='key'>
-                <Heading>Key Commands & Navigation</Heading>
+                <Heading>Key Commands & Navigation 🧭 </Heading>
                 {/* <p className='text-lg ml-2'> Before we look at some common commands, I just want to note a few keyboard commands that are very helpful:
                 </p> */}
                 <CodeBox>
@@ -79,7 +79,7 @@ function Introduction() {
             <Hr />
 
             <section className="-mt-6" id='help'>
-                <Heading>Help</Heading>
+                <Heading>Help ℹ</Heading>
                 <p className='text-lg ml-2'> The command that you want to know more about and then <BtnText>--help</BtnText> and you will get similar info.
                 </p>
                 <CodeBox>
@@ -101,8 +101,7 @@ function Introduction() {
                 </p>
                 <CodeBox>
 
-                    <BlueText>Example</BlueText> <br />
-                    ls --help
+                    whoami
                 </CodeBox>
                 <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p>
             </section>
@@ -112,7 +111,7 @@ function Introduction() {
 
 
             <section className="-mt-6" id='whoami'>
-                <Heading>The date Command</Heading>
+                <Heading>The date 📅 Command</Heading>
                 <p className='text-lg ml-2'> Another really simple one is the  <BtnText>date</BtnText>   command, which, surprise, will show you the current date and time.
                 </p>
                 <CodeBox>

@@ -9,8 +9,8 @@ import CommandText from '../../components/CommandText'
 
 function File() {
 
-    const title = <p> 2| F<span className='text-firebaseYellow'>i</span>le</p>
-    const subtitle = <p className='ml-4'> Display file, Crate File, Copy File, Delete file.</p>
+    const title = <p> 3| F<span className='text-firebaseYellow'>i</span>le</p>
+    const subtitle = <p className='ml-4'> Create  File 🖍, Copy  File ✂️ 📋, Delete file 🗑️.</p>
 
     const prev = 'Directory'
     const next = 'Cat'
@@ -25,12 +25,12 @@ function File() {
             <WS title={title} subtitle={subtitle} prev={prev} next={next} />
 
             <section className="mt-6" id='less'>
-                <Heading>Display  File</Heading>
+                <Heading>Display  File 💻</Heading>
                 <p className='text-lg ml-2'>The <BtnText>less</BtnText> command is used to view the contents of a file. It is similar to the  <BtnText>cat</BtnText> command, but it allows you to scroll up and down. </p>
                 <CodeBox>
 
 
-                    less [filename] <CommandText>Create file  </CommandText>
+                    less [filename] <CommandText>Display  File </CommandText>
                     <br />   <BlueText>Example</BlueText> <br />
                     less example.txt
 
@@ -44,13 +44,13 @@ function File() {
             <Hr />
 
             <section className="mt-6" id='touch'>
-                <Heading>Create  File</Heading>
+                <Heading>Create  File 🖍</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
 
 
-                    touch [dirname] <CommandText>Create file  </CommandText>
+                    touch [filename] <CommandText>Create file  </CommandText>
                     <br />   <BlueText>Example</BlueText> <br />
                     touch example.txt
 
@@ -66,7 +66,7 @@ function File() {
 
 
             <section className="mt-6" id='cp'>
-                <Heading>Copy  File</Heading>
+                <Heading>Copy  File ✂️ 📋 </Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
@@ -85,7 +85,7 @@ function File() {
             </section>
             <Hr />
             <section className="mt-6" id='Delete'>
-                <Heading> Delete file</Heading>
+                <Heading> Delete file 🗑️</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>

@@ -11,46 +11,52 @@ import Tree from "./pages/WSsub/Tree"
 import File from "./pages/WSsub/File"
 import Directory from "./pages/WSsub/Directory"
 import Cat from "./pages/WSsub/Cat"
+import Footer from "./components/Footer"
 
 
 
 
 function App() {
   return (
-    <div className="App text-white sm:mx-5  ">
-      <Router>
 
-        <Navbar />
-        <Routes>
+    <Router>
+      <>
+        <div className="App text-white sm:mx-5  ">
+          <Navbar />
+          <Routes>
 
-          <Route exact path="/" element={
-
-
-            <div className="mx-32">
-
-              <Title />
-              <Hr />
-              <CodeBox />
-              <GetCode />
-              <Hr />
-              <WorkshopSections /><br />
-            </div>
+            <Route exact path="/" element={
 
 
+              <div className="mx-32">
 
-          } />
+                <Title />
+                <Hr />
 
-          <Route exact path="/WS" element={<WS />} />
-          <Route exact path="/WS/Introduction" element={<div className="mx-32">< Introduction /></div>} />
-          <Route exact path="/WS/Tree" element={<div className="mx-32"><Tree /></div>} />
-          <Route exact path="/WS/File" element={<div className="mx-32"><File /></div>} />
-          <Route exact path="/WS/Directory" element={<div className="mx-32"><Directory /></div>} />
-          <Route exact path="/WS/Cat" element={<div className="mx-32"><Cat /></div>} />
+                <GetCode />
+                <Hr />
+                <WorkshopSections /><br />
+
+              </div>
 
 
-        </Routes>
-      </Router >
-    </div>
+
+            } />
+
+            <Route exact path="/WS" element={<WS />} />
+            <Route exact path="/WS/Introduction" element={<div className="mx-32">< Introduction /></div>} />
+            <Route exact path="/WS/Tree" element={<div className="mx-32"><Tree /></div>} />
+            <Route exact path="/WS/File" element={<div className="mx-32"><File /></div>} />
+            <Route exact path="/WS/Directory" element={<div className="mx-32"><Directory /></div>} />
+            <Route exact path="/WS/Cat" element={<div className="mx-32"><Cat /></div>} />
+
+
+          </Routes>
+        </div >
+        <hr class=" w-full mt-6 h-px bg-firebaseYellow  border-0 " />
+        <Footer /> </>
+    </Router >
+
   )
 }
 

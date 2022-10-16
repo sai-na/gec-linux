@@ -10,7 +10,7 @@ import CommandText from '../../components/CommandText'
 function Directory() {
 
     const title = <p> 2| <span className='text-firebaseYellow'>Dir</span>ectory</p>
-    const subtitle = <p> File System Navigation , Crate folder , Rename folder , Moving folder , Delete folder.</p>
+    const subtitle = <p>File System Navigation 🧭, Opening a Folder or File 📂, Create folder 📁, Rename folder 📛, Move folder 📤, Delete folder 🗑️.</p>
 
     const prev = 'Introduction'
     const next = 'File'
@@ -22,7 +22,7 @@ function Directory() {
             <WS title={title} subtitle={subtitle} prev={prev} next={next} />
 
             <section className="-mt-6" id='whoami'>
-                <Heading>File System Navigation</Heading>
+                <Heading>File System Navigation 🧭</Heading>
                 <p className='text-lg ml-2'> Commands to navigate your file system are very important. You will be using them all the time. You won't remember every single command that you use, but these are the ones that you should remember.   </p>
                 <CodeBox>
 
@@ -62,7 +62,7 @@ function Directory() {
             <Hr />
 
             <section className="mt-6" id='open'>
-                <Heading>Opening a Folder or File</Heading>
+                <Heading>Opening a Folder or File 📂</Heading>
                 <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p>
                 <CodeBox>
@@ -83,7 +83,7 @@ function Directory() {
             <Hr />
 
             <section className="mt-6" id='mkdir'>
-                <Heading>Create folder</Heading>
+                <Heading>Create folder 📁</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
@@ -101,11 +101,10 @@ function Directory() {
             </section>
 
 
-            <Hr />
+            {/* <Hr />
             <section className="mt-6" id='touch'>
                 <Heading>Create  File</Heading>
-                {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
-                </p> */}
+               
                 <CodeBox>
 
 
@@ -118,12 +117,12 @@ function Directory() {
 
                 </CodeBox>
 
-            </section>
+            </section> */}
 
 
             <Hr />
             <section className="mt-6" id='rename'>
-                <Heading>Rename folder</Heading>
+                <Heading>Rename folder 📛</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
@@ -141,7 +140,7 @@ function Directory() {
             </section>
             <Hr />
             <section className="mt-6" id='mv'>
-                <Heading>Move folder</Heading>
+                <Heading>Move folder 📤</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
@@ -162,7 +161,7 @@ function Directory() {
 
             <Hr />
             <section className="mt-6" id='Delete'>
-                <Heading> Delete folder</Heading>
+                <Heading> Delete folder 🗑️</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
@@ -184,7 +183,7 @@ function Directory() {
             </section>
 
 
-            <Hr />
+
 
         </>
     )

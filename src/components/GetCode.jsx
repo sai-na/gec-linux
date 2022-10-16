@@ -4,7 +4,7 @@ import CodeBox from './CodeBox'
 function GetCode() {
     return (
         <div className='mb-5  mt-10'>
-            <div className=" mt-3 font-sans font-semibold text-5xl"> {'>'} Get the code </div>
+            <div className=" mt-3 font-sans font-semibold text-5xl"> {'>'} Requirements  </div>
             {/* <ol >
                 <li className='mt-5 text-lg'> <span className=''>Fork</span> this repo on Github</li>
             </ol> */}
@@ -16,7 +16,7 @@ function GetCode() {
                     </a>
                 </ol>
             </div>
-            <CodeBox > git clone https://github.com/sai-na/linux-commandes-gec</CodeBox>
+            {/* <CodeBox > git clone https://github.com/sai-na/linux-commandes-gec</CodeBox> */}
         </div>
     )
 }

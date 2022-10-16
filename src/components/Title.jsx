@@ -10,7 +10,7 @@ function Title() {
 
                 <div className="flex  items-center mt-6 ">
 
-                    <img src="https://frontend-masters-firebase.web.app/de-profile.png" alt="linux" className='w-20 h-20  mr-5' />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/linux-gec.appspot.com/o/sai.jpg?alt=media&token=bc630dfd-8802-4bd1-a353-35b65eb3e053" alt="" className='w-20 h-20 rounded-full mr-5' />
                     <div className="flex flex-col justify-start items-start">
                         <div className='font-bold mb-1'> Sai Nath A</div>
                         <a href='https://github.com/sai-na'> <div className=' flex mb-0 items-center'><BsGithub className='mr-1' /> <span className='text-firebaseYellow'>@sai-na</span></div>
