@@ -5,7 +5,7 @@ import WS from '../WS'
 import BtnText from '../../components/BtnText'
 import BlueText from '../../components/BlueText'
 import Hr from '../../components/Hr'
-import CommandText from '../../components/CommandText'
+
 
 function Introduction() {
 

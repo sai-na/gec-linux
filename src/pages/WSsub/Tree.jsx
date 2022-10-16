@@ -2,11 +2,10 @@ import React from 'react'
 import CodeBox from '../../components/CodeBox'
 import Heading from '../../components/Heading'
 import WS from '../WS'
-import BtnText from '../../components/BtnText'
-import BlueText from '../../components/BlueText'
+
 import Hr from '../../components/Hr'
 import CommandText from '../../components/CommandText'
-import RedText from '../../components/RedText'
+
 
 function Tree() {
 

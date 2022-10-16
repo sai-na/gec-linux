@@ -1,9 +1,8 @@
-import React from 'react'
-import CodeBox from './CodeBox'
+
 
 function GetCode() {
     return (
-        <div className='mb-5  mt-10'>
+        <div className='mb-5  mx-5 mt-10'>
             <div className=" mt-3 font-sans font-semibold text-lg md:text-5xl"> {'>'} Requirements  </div>
             {/* <ol >
                 <li className='mt-5 text-lg'> <span className=''>Fork</span> this repo on Github</li>

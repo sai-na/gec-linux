@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function WorkshopSections() {
     return (
         <div className='mb-5  mt-10'>
-            <div className=" mt-3 font-sans font-semibold text-lg md:text-5xl"> {'>'} Workshop Sections </div>
+            <div className=" mt-3  mx-5 font-sans font-semibold text-lg md:text-5xl"> {'>'} Workshop Sections </div>
 
             <div className="mx-8">
 

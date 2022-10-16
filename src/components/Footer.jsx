@@ -1,6 +1,6 @@
 import React from 'react'
 import { DiMitlicence } from 'react-icons/di'
-import Hr from './Hr'
+
 
 function Footer() {
     const footerYear = new Date().getFullYear()

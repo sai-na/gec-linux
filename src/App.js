@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar"
 import Title from "./components/Title"
 import GetCode from "./components/GetCode"
 import Hr from "./components/Hr"
-import CodeBox from "./components/CodeBox"
+
 import WorkshopSections from "./components/WorkshopSections"
 import WS from "./pages/WS"
 import Introduction from "./pages/WSsub/Introduction"
