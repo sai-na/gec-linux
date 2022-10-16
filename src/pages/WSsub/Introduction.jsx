@@ -5,6 +5,7 @@ import WS from '../WS'
 import BtnText from '../../components/BtnText'
 import BlueText from '../../components/BlueText'
 import Hr from '../../components/Hr'
+import CommandText from '../../components/CommandText'
 
 function Introduction() {
 
@@ -20,7 +21,7 @@ function Introduction() {
             <WS title={title} subtitle={subtitle} prev={null} next={next} />
 
 
-            <div className="-mt-6   ">
+            <section className="-mt-6" id='TextSize'>
                 <Heading>Text size</Heading>
                 <p className='text-lg ml-2'> Before we look at some common commands, I just want to note a few keyboard commands that are very helpful:
                 </p>
@@ -33,12 +34,12 @@ function Introduction() {
 
                     </ul>
                 </CodeBox>
-            </div>
+            </section >
 
             <Hr />
 
 
-            <div className="mt-6   ">
+            <section className="mt-6" id='key'>
                 <Heading>Key Commands & Navigation</Heading>
                 {/* <p className='text-lg ml-2'> Before we look at some common commands, I just want to note a few keyboard commands that are very helpful:
                 </p> */}
@@ -54,12 +55,12 @@ function Introduction() {
                         <li className='my-1'><BtnText> Ctrl + D</BtnText> :  Will exit the terminal</li>
                     </ul>
                 </CodeBox>
-            </div>
+            </section >
 
 
             <Hr />
 
-            <div className="-mt-6   ">
+            <section className="-mt-6" id='help'>
                 <Heading>Help</Heading>
                 <p className='text-lg ml-2'> The command that you want to know more about and then <BtnText>--help</BtnText> and you will get similar info.
                 </p>
@@ -69,16 +70,16 @@ function Introduction() {
                     ls --help
                 </CodeBox>
                 <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p>
-            </div>
+            </section >
 
 
             <Hr />
 
 
 
-            <div className="-mt-6   ">
+            <section className="-mt-6" id='whoami'>
                 <Heading>The whoami Command</Heading>
-                <p className='text-lg ml-2'> The <BtnText>whoami </BtnText> command will show you the current user that you are logged in as.
+                <p className='text-lg ml-2'> The <BtnText> whoami</BtnText> command will show you the current user that you are logged in as.
                 </p>
                 <CodeBox>
 
@@ -86,10 +87,59 @@ function Introduction() {
                     ls --help
                 </CodeBox>
                 <p className='text-lg ml-2' >You should be able to use the arrow keys or page up and down. When you are ready to exit, just press <BtnText>q</BtnText> .</p>
-            </div>
+            </section>
 
 
             <Hr />
+
+
+            <section className="-mt-6" id='whoami'>
+                <Heading>The date Command</Heading>
+                <p className='text-lg ml-2'> Another really simple one is the  <BtnText> date </BtnText>   command, which, surprise, will show you the current date and time.
+                </p>
+                <CodeBox>
+                    date
+                </CodeBox>
+
+            </section>
+
+            <section className="-mt-6" id='whoami'>
+                <Heading>File System Navigation</Heading>
+                <p className='text-lg ml-2'> Commands to navigate your file system are very important. You will be using them all the time. You won't remember every single command that you use, but these are the ones that you should remember.   </p>
+                <CodeBox>
+
+                    <ul class="list-disc marker:text-lightYellow  mr-3 mt-3 ml-4">
+                        <li className='my-1'>
+                            pwd <CommandText> Lists the path to the working directory </CommandText>
+
+                        </li>
+                        <li className='my-1'>
+                            ls  <CommandText> List directory contents   </CommandText>
+
+                        </li>
+                        <li className='my-1'>
+                            ls -r   <CommandText> List contents reverse order </CommandText>
+
+                        </li>
+                        <li className='my-1'>
+                            cd   <CommandText> Change directory to home </CommandText>
+
+                        </li>
+                        <li className='my-1'>
+                            cd [dirname]   <CommandText> Change directory to specific </CommandText>
+                            <br />   <BlueText>Example</BlueText> <br />
+                            cd example
+                        </li>
+                        <li className='my-1'>
+                            cd ..   <CommandText> Change to parent directory </CommandText>
+
+                        </li>
+
+                    </ul>
+
+                </CodeBox>
+
+            </section>
 
         </>)
 }

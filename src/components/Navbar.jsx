@@ -9,10 +9,11 @@ function Navbar() {
             <div className='sm:justify-between flex'>
                 <Link to="/" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">Home</Link>
                 <Link to="/WS/Introduction" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">Intro</Link>
-                <Link to="/WS/Directory" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">Tree</Link>
+                <Link to="/WS/Directory" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10 ">Directory</Link>
                 <Link to="/WS/File" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">File</Link>
                 <Link to="/WS/Cat" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">Cat</Link>
-                <Link to="/Tree" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10 lg:mr-40">Directory</Link>
+                <Link to="/WS/Tree" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10 lg:mr-40">Tree</Link>
+
             </div>
         </nav>
     )
