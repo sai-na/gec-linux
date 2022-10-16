@@ -41,10 +41,10 @@ function App() {
           } />
 
           <Route exact path="/WS" element={<WS />} />
-          <Route exact path="/WS/Introduction" element={< Introduction />} />
-          <Route exact path="/WS/Tree" element={<Tree />} />
-          <Route exact path="/WS/File" element={<File />} />
-          <Route exact path="/WS/Directory" element={<Directory />} />
+          <Route exact path="/WS/Introduction" element={<div className="mx-32">< Introduction /></div>} />
+          <Route exact path="/WS/Tree" element={<div className="mx-32"><Tree /></div>} />
+          <Route exact path="/WS/File" element={<div className="mx-32"><File /></div>} />
+          <Route exact path="/WS/Directory" element={<div className="mx-32"><Directory /></div>} />
           <Route exact path="/WS/Cat" element={<div className="mx-32"><Cat /></div>} />
 
 

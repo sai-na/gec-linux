@@ -12,7 +12,7 @@ function Navbar() {
                 <Link to="/WS/Directory" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">Tree</Link>
                 <Link to="/WS/File" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">File</Link>
                 <Link to="/WS/Cat" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10">Cat</Link>
-                <Link to="/Tree" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10 sm:mr-40">Directory</Link>
+                <Link to="/Tree" className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2 sm:ml-10 lg:mr-40">Directory</Link>
             </div>
         </nav>
     )

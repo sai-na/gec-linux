@@ -6,7 +6,7 @@ function Title() {
     return (
         <>
             <div className=' mt-32 mb-5 '>
-                <opensans className='text-8xl'><div className="flex ">Linux <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="linux" className='w-20 h-20 ml-10' /> <br /></div>  <span className='text-firebaseYellow'> Commands </span>   </opensans>
+                <opensans className='text-8xl'><div className="flex ">Linux <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" alt="" className='w-20 h-20 ml-10' /> <br /></div>  <span className='text-firebaseYellow'> Commands </span>   </opensans>
 
                 <div className="flex  items-center mt-6 ">
 

@@ -10,7 +10,7 @@ function WS({ title, subtitle, prev, next }) {
 
 
 
-                <div className=" mt-12 font-sans text-4xl" style={{ color: "#cfcfcf" }}>  {subtitle}</div>
+                <div className=" ml-5 mt-12 font-sans text-2xl" style={{ color: "#cfcfcf" }}>  {subtitle}</div>
 
             </div>
 
@@ -18,7 +18,7 @@ function WS({ title, subtitle, prev, next }) {
                 {prev && <>  Prev :  <Link to={`/WS/${prev}`} className='text-white underline hover:text-firebaseYellow '>{prev}   </Link>&nbsp;
                 </>}
 
-                {next && <>   / &nbsp;Next : <Link to={`/WS/${next}`} className='ml-3 text-white underline hover:text-firebaseYellow'>{next}</Link>
+                {next && <>  {prev && <>/ &nbsp; </>}Next : <Link to={`/WS/${next}`} className='ml-3 text-white underline hover:text-firebaseYellow'>{next}</Link>
                 </>}
             </div>
             <Hr />
