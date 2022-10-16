@@ -12,7 +12,7 @@ function WorkshopSections() {
                 <div class=" mt-10 list-decimal mx-3 list-inside">
                     <Link to="/WS/Introduction"> <span className='text-firebaseYellow mr-2   text-2xl '> <div className="flex items-center"></div>1|</span>
                         <span className='hover:text-firebaseYellow hover:underline text-2xl font-base '>Introduction</span>  </Link>
-                    <div className="ml-8 text-gray-400">Opening a terminal , Text size ,Key Commands & Navigation , Ls , Whoami , Date .</div>
+                    <div className="ml-8 text-gray-400">Opening  terminal , Text size ,Key Commands & Navigation , Ls , Whoami , Date .</div>
 
                 </div>
 

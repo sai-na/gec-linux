@@ -22,6 +22,24 @@ function Introduction() {
 
 
             <section className="-mt-6" id='TextSize'>
+                <Heading>Open terminal </Heading>
+                {/* <p className='text-lg ml-2'> Before we look at some common commands, I just want to note a few keyboard commands that are very helpful:
+                </p> */}
+                <CodeBox>
+
+                    <ul class=" marker:text-lightYellow  mr-3 mt-3 ml-4">
+                        <li className='my-1'><BtnText> Ctrl + Alt + T</BtnText>
+                            : Open terminal</li>
+
+
+                    </ul>
+                </CodeBox>
+            </section >
+
+            <Hr />
+
+
+            <section className="-mt-6" id='TextSize'>
                 <Heading>Text size</Heading>
                 <p className='text-lg ml-2'> Before we look at some common commands, I just want to note a few keyboard commands that are very helpful:
                 </p>
@@ -103,43 +121,7 @@ function Introduction() {
 
             </section>
 
-            <section className="-mt-6" id='whoami'>
-                <Heading>File System Navigation</Heading>
-                <p className='text-lg ml-2'> Commands to navigate your file system are very important. You will be using them all the time. You won't remember every single command that you use, but these are the ones that you should remember.   </p>
-                <CodeBox>
 
-                    <ul class="list-disc marker:text-lightYellow  mr-3 mt-3 ml-4">
-                        <li className='my-1'>
-                            pwd <CommandText> Lists the path to the working directory </CommandText>
-
-                        </li>
-                        <li className='my-1'>
-                            ls  <CommandText> List directory contents   </CommandText>
-
-                        </li>
-                        <li className='my-1'>
-                            ls -r   <CommandText> List contents reverse order </CommandText>
-
-                        </li>
-                        <li className='my-1'>
-                            cd   <CommandText> Change directory to home </CommandText>
-
-                        </li>
-                        <li className='my-1'>
-                            cd [dirname]   <CommandText> Change directory to specific </CommandText>
-                            <br />   <BlueText>Example</BlueText> <br />
-                            cd example
-                        </li>
-                        <li className='my-1'>
-                            cd ..   <CommandText> Change to parent directory </CommandText>
-
-                        </li>
-
-                    </ul>
-
-                </CodeBox>
-
-            </section>
 
         </>)
 }
