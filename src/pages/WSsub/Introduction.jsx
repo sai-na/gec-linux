@@ -113,7 +113,7 @@ function Introduction() {
 
             <section className="-mt-6" id='whoami'>
                 <Heading>The date Command</Heading>
-                <p className='text-lg ml-2'> Another really simple one is the  <BtnText> date </BtnText>   command, which, surprise, will show you the current date and time.
+                <p className='text-lg ml-2'> Another really simple one is the  <BtnText>date</BtnText>   command, which, surprise, will show you the current date and time.
                 </p>
                 <CodeBox>
                     date

@@ -10,7 +10,7 @@ import CommandText from '../../components/CommandText'
 function Directory() {
 
     const title = <p> 2| <span className='text-firebaseYellow'>Dir</span>ectory</p>
-    const subtitle = <p> File System Navigation , Crate folder , Rename folder , Delete folder ,  Moving folder.</p>
+    const subtitle = <p> File System Navigation , Crate folder , Rename folder , Moving folder , Delete folder.</p>
 
     const prev = 'Introduction'
     const next = 'File'
@@ -141,7 +141,7 @@ function Directory() {
             </section>
             <Hr />
             <section className="mt-6" id='mv'>
-                <Heading>Rename folder</Heading>
+                <Heading>Move folder</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
                 <CodeBox>
@@ -161,7 +161,7 @@ function Directory() {
 
 
             <Hr />
-            <section className="mt-6" id='rm -r'>
+            <section className="mt-6" id='Delete'>
                 <Heading> Delete folder</Heading>
                 {/* <p className='text-lg ml-2'>If you want to open a file or a folder in the GUI from your terminal.
                 </p> */}
